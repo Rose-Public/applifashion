@@ -1,0 +1,4 @@
+Task: <Task Number>, Test Name: <Test Name>, DOM Id:: <id>, Browser: <Browser>, Viewport: <Width x Height>, Device<Device type>, Status: <Pass | Fail>
+
+
+Task: 1, Test Name: <Test Name>, DOM Id:: <id>, Browser: Chrome, Viewport: <Width x Height>, Device: <Device type>, Status: <Pass | Fail>
