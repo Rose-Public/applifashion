@@ -1,0 +1,811 @@
+// TESTS RESULTS ON CHROME
+
+Task: 1, Test Name: FOOTER - Main sections display according to the available space, DOM Id: #DIV__row__420, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: FOOTER - Main sections display according to the available space, DOM Id: #DIV__row__420, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: FOOTER - Main sections display according to the available space, DOM Id: #DIV__row__420, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: FOOTER - All 3 main sections are always opened, DOM Id: #collapse_1.collapse.dont-collapse-sm.links, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: FOOTER - All 3 main sections are always opened, DOM Id: #collapse_1.collapse.dont-collapse-sm.links, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: FOOTER - All 3 main sections are collapsed by default, DOM Id: #collapse_1.collapse.dont-collapse-sm.links, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: FOOTER - All 3 main sections can be opened to display subsections, DOM Id: #collapse_1.collapse.dont-collapse-sm.links, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: FOOTER - Additionnal sections display according to the available space, DOM Id: #DIV__rowaddbott__456, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: FOOTER - Additionnal sections display according to the available space, DOM Id: #DIV__rowaddbott__456, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: FOOTER - Additionnal sections display according to the available space, DOM Id: #DIV__rowaddbott__456, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Logo is visible, DOM Id: #logo, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu is visible, DOM Id: #DIV__mainmenu__15, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar is visible, DOM Id: #DIV__customsear__41, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar content is correct, DOM Id: #INPUTtext____42, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Search icon is visible, DOM Id: #BUTTONsubmit____43, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Favorite icon is visible, DOM Id: #A__wishlist__52, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Cart item counter is visible, DOM Id: #STRONG____50, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Logo is visible, DOM Id: #logo, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu is not visible, DOM Id: #DIV__mainmenu__15, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Burger menu is visible, DOM Id: #DIV__hamburgerb__13, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu is visible on click, DOM Id: #DIV__mainmenu__15, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar is visible, DOM Id: #DIV__customsear__41, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar content is correct, DOM Id: #INPUTtext____42, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Search icon is visible, DOM Id: #BUTTONsubmit____43, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Favorite icon is not visible, DOM Id: #A__wishlist__52, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 1, Test Name: HEADER on Homepage - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Cart item counter is visible, DOM Id: #STRONG____50, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Logo is visible, DOM Id: #logo, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu is not visible, DOM Id: #DIV__mainmenu__15, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Burger menu is visible, DOM Id: #DIV__hamburgerb__13, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu is visible on click, DOM Id: #DIV__mainmenu__15, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Search icon is visible, DOM Id: #A__btnsearchm__59, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar is not visible, DOM Id: #INPUTtext__formcontro__62, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar becomes visible on click, DOM Id: #INPUTtext__formcontro__62, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: HEADER on Homepage - Searchbutton (fullwidth) is visible, DOM Id: #INPUTtext__formcontro__62, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Favorite icon is not visible, DOM Id: #A__wishlist__52, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: HEADER on Homepage - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Cart item counter is not visible, DOM Id: #STRONG____50, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Logo is visible, DOM Id: #logo, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu is visible, DOM Id: #DIV__mainmenu__15, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar is visible, DOM Id: #DIV__customsear__41, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar content is correct, DOM Id: #INPUTtext____42, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Search icon is visible, DOM Id: #BUTTONsubmit____43, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Favorite icon is visible, DOM Id: #A__wishlist__52, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart item counter is visible, DOM Id: #STRONG____50, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Logo is visible, DOM Id: #logo, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu is not visible, DOM Id: #DIV__mainmenu__15, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Burger menu is visible, DOM Id: #DIV__hamburgerb__13, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu is visible on click, DOM Id: #DIV__mainmenu__15, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar is visible, DOM Id: #DIV__customsear__41, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar content is correct, DOM Id: #INPUTtext____42, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Search icon is visible, DOM Id: #BUTTONsubmit____43, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Favorite icon is visible, DOM Id: #A__wishlist__52, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart item counter is visible, DOM Id: #STRONG____50, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Logo is visible, DOM Id: #logo, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu is not visible, DOM Id: #DIV__mainmenu__15, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Burger menu is visible, DOM Id: #DIV__hamburgerb__13, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu is visible on click, DOM Id: #DIV__mainmenu__15, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Search icon is visible, DOM Id: #A__btnsearchm__59, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar is not visible, DOM Id: #INPUTtext__formcontro__62, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar becomes visible on click, DOM Id: #INPUTtext__formcontro__62, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar content is correct, DOM Id: #INPUTtext__formcontro__62, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbutton (fullwidth) is visible, DOM Id: #INPUTtext__formcontro__62, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Favorite icon is visible, DOM Id: #A__wishlist__52, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart item counter is visible, DOM Id: #STRONG____50, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Displaying mode grid is visible, DOM Id: #I__tiviewgrid__202, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 1, Test Name: HOMEPAGE - The icon Filter is not visible, DOM Id: #ti-filter, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar is directly visible, DOM Id: #filter_col, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar content is correct, DOM Id: .filter_type, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filter button is visible, DOM Id: #filterBtn, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Reset button is visible, DOM Id: #resetBtn, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Displaying mode grid is not visible, DOM Id: #I__tiviewgrid__202, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Displaying mode list is not visible, DOM Id: #I__tiviewlist__204, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - The icon Filter is visible, DOM Id: #ti-filter, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - The title "Filter" is visible, DOM Id: #SPAN____209, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar is not visible before clicking on Filter icon, DOM Id: #filter_col, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar is visible after clicking on Filter icon, DOM Id: #filter_col, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar content is correct, DOM Id: .filter_type, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filter button is visible, DOM Id: #filterBtn, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Reset button is visible, DOM Id: #resetBtn, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+---
+Task: 1, Test Name: HOMEPAGE - Displaying mode grid is not visible, DOM Id: #I__tiviewgrid__202, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Displaying mode list is not visible, DOM Id: #I__tiviewlist__204, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - The icon Filter is visible, DOM Id: #ti-filter, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - The title "Filter" is visible, DOM Id: #SPAN____209, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar is not visible before clicking on Filter icon, DOM Id: #filter_col, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar is visible after clicking on Filter icon, DOM Id: #filter_col, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar content is correct, DOM Id: .filter_type, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filter button is visible, DOM Id: #filterBtn, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Reset button is visible, DOM Id: #resetBtn, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Thumbnail menu is not visible by default, DOM Id: .grid_item ul li, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Thumbnail menu is visible on hover, DOM Id: .grid_item ul li, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 1, Test Name: HOMEPAGE - Thumbnail menu is directly visible, DOM Id: .grid_item ul li, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 1, Test Name: HOMEPAGE - Thumbnail menu is directly visible, DOM Id: .grid_item ul li, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+
+// TESTS RESULTS ON FIREFOX
+
+Task: 1, Test Name: FOOTER - Main sections display according to the available space, DOM Id: #DIV__row__420, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: FOOTER - Main sections display according to the available space, DOM Id: #DIV__row__420, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: FOOTER - Main sections display according to the available space, DOM Id: #DIV__row__420, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: FOOTER - All 3 main sections are always opened, DOM Id: #collapse_1.collapse.dont-collapse-sm.links, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: FOOTER - All 3 main sections are always opened, DOM Id: #collapse_1.collapse.dont-collapse-sm.links, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: FOOTER - All 3 main sections are collapsed by default, DOM Id: #collapse_1.collapse.dont-collapse-sm.links, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: FOOTER - All 3 main sections can be opened to display subsections, DOM Id: #collapse_1.collapse.dont-collapse-sm.links, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: FOOTER - Additionnal sections display according to the available space, DOM Id: #DIV__rowaddbott__456, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: FOOTER - Additionnal sections display according to the available space, DOM Id: #DIV__rowaddbott__456, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: FOOTER - Additionnal sections display according to the available space, DOM Id: #DIV__rowaddbott__456, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Logo is visible, DOM Id: #logo, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu is visible, DOM Id: #DIV__mainmenu__15, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar is visible, DOM Id: #DIV__customsear__41, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar content is correct, DOM Id: #INPUTtext____42, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Search icon is visible, DOM Id: #BUTTONsubmit____43, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Favorite icon is visible, DOM Id: #A__wishlist__52, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Cart item counter is visible, DOM Id: #STRONG____50, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Logo is visible, DOM Id: #logo, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu is not visible, DOM Id: #DIV__mainmenu__15, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Burger menu is visible, DOM Id: #DIV__hamburgerb__13, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu is visible on click, DOM Id: #DIV__mainmenu__15, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar is visible, DOM Id: #DIV__customsear__41, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar content is correct, DOM Id: #INPUTtext____42, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Search icon is visible, DOM Id: #BUTTONsubmit____43, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Favorite icon is not visible, DOM Id: #A__wishlist__52, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 1, Test Name: HEADER on Homepage - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Cart item counter is visible, DOM Id: #STRONG____50, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Logo is visible, DOM Id: #logo, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu is not visible, DOM Id: #DIV__mainmenu__15, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Burger menu is visible, DOM Id: #DIV__hamburgerb__13, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu is visible on click, DOM Id: #DIV__mainmenu__15, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Search icon is visible, DOM Id: #A__btnsearchm__59, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar is not visible, DOM Id: #INPUTtext__formcontro__62, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: HEADER on Homepage - Searchbar becomes visible on click, DOM Id: #INPUTtext__formcontro__62, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: HEADER on Homepage - Searchbutton (fullwidth) is visible, DOM Id: #INPUTtext__formcontro__62, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Favorite icon is not visible, DOM Id: #A__wishlist__52, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: HEADER on Homepage - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Homepage - Cart item counter is not visible, DOM Id: #STRONG____50, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Logo is visible, DOM Id: #logo, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu is visible, DOM Id: #DIV__mainmenu__15, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar is visible, DOM Id: #DIV__customsear__41, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar content is correct, DOM Id: #INPUTtext____42, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Search icon is visible, DOM Id: #BUTTONsubmit____43, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Favorite icon is visible, DOM Id: #A__wishlist__52, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart item counter is visible, DOM Id: #STRONG____50, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Logo is visible, DOM Id: #logo, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu is not visible, DOM Id: #DIV__mainmenu__15, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Burger menu is visible, DOM Id: #DIV__hamburgerb__13, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu is visible on click, DOM Id: #DIV__mainmenu__15, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar is visible, DOM Id: #DIV__customsear__41, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar content is correct, DOM Id: #INPUTtext____42, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Search icon is visible, DOM Id: #BUTTONsubmit____43, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Favorite icon is visible, DOM Id: #A__wishlist__52, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart item counter is visible, DOM Id: #STRONG____50, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Logo is visible, DOM Id: #logo, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu is not visible, DOM Id: #DIV__mainmenu__15, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Burger menu is visible, DOM Id: #DIV__hamburgerb__13, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu is visible on click, DOM Id: #DIV__mainmenu__15, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__submenu__22, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__24, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__26, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__28, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Main menu content is correct, DOM Id: #LI__megamenusu__30, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Search icon is visible, DOM Id: #A__btnsearchm__59, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar is not visible, DOM Id: #INPUTtext__formcontro__62, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar becomes visible on click, DOM Id: #INPUTtext__formcontro__62, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbar content is correct, DOM Id: #INPUTtext__formcontro__62, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Searchbutton (fullwidth) is visible, DOM Id: #INPUTtext__formcontro__62, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Profile icon is visible, DOM Id: #A__accesslink__56, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Favorite icon is visible, DOM Id: #A__wishlist__52, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart icon is visible, DOM Id: #A__cartbt__49, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HEADER on Shoe Details Page - Cart item counter is visible, DOM Id: #STRONG____50, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Displaying mode grid is visible, DOM Id: #I__tiviewgrid__202, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 1, Test Name: HOMEPAGE - The icon Filter is not visible, DOM Id: #ti-filter, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar is directly visible, DOM Id: #filter_col, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar content is correct, DOM Id: .filter_type, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filter button is visible, DOM Id: #filterBtn, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Reset button is visible, DOM Id: #resetBtn, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Displaying mode grid is not visible, DOM Id: #I__tiviewgrid__202, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Displaying mode list is not visible, DOM Id: #I__tiviewlist__204, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - The icon Filter is visible, DOM Id: #ti-filter, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - The title "Filter" is visible, DOM Id: #SPAN____209, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar is not visible before clicking on Filter icon, DOM Id: #filter_col, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar is visible after clicking on Filter icon, DOM Id: #filter_col, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar content is correct, DOM Id: .filter_type, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filter button is visible, DOM Id: #filterBtn, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Reset button is visible, DOM Id: #resetBtn, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+---
+Task: 1, Test Name: HOMEPAGE - Displaying mode grid is not visible, DOM Id: #I__tiviewgrid__202, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Displaying mode list is not visible, DOM Id: #I__tiviewlist__204, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - The icon Filter is visible, DOM Id: #ti-filter, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - The title "Filter" is visible, DOM Id: #SPAN____209, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar is not visible before clicking on Filter icon, DOM Id: #filter_col, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar is visible after clicking on Filter icon, DOM Id: #filter_col, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filters sidebar content is correct, DOM Id: .filter_type, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Filter button is visible, DOM Id: #filterBtn, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Reset button is visible, DOM Id: #resetBtn, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Thumbnail menu is not visible by default, DOM Id: .grid_item ul li, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 1, Test Name: HOMEPAGE - Thumbnail menu is visible on hover, DOM Id: .grid_item ul li, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 1, Test Name: HOMEPAGE - Thumbnail menu is directly visible, DOM Id: .grid_item ul li, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 1, Test Name: HOMEPAGE - Thumbnail menu is directly visible, DOM Id: .grid_item ul li, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+// TESTS RESULTS ON EDGE CHROMIUM
+// Impossible to launch tests on Edge, I'm on linux : cypress does not propose Edge in browsers' list
+
+
+// TASK 2 - CHROME
+
+Task: 2, Test Name: I can filter on black shoes, DOM Id: #DIV__colcolmd__210.col-6.col-md-4, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 2, Test Name: I can filter on black shoes, DOM Id: #DIV__colcolmd__210.col-6.col-md-4, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 2, Test Name: I can filter on black shoes, DOM Id: #DIV__colcolmd__210.col-6.col-md-4, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+// TASK 2 - FIREFOX
+
+Task: 2, Test Name: I can filter on black shoes, DOM Id: #DIV__colcolmd__210.col-6.col-md-4, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 2, Test Name: I can filter on black shoes, DOM Id: #DIV__colcolmd__210.col-6.col-md-4, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 2, Test Name: I can filter on black shoes, DOM Id: #DIV__colcolmd__210.col-6.col-md-4, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+// TASK 2 - EDGE CHROMIUM
+// Impossible to launch tests on Edge, I'm on linux : cypress does not propose Edge in browsers' list
+
+
+// TASK 3 - CHROME
+
+Task: 3, Test Name: Shoe with special offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Rating is correct, DOM Id: #EM____82, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Description is correct, DOM Id: #P____83, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Price is correct, DOM Id: #new_price, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Old price is correct, DOM Id: #old_price, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Discount is correct, DOM Id: #discount, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Rating is correct, DOM Id: #EM____82, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Description is correct, DOM Id: #P____83, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Price is correct, DOM Id: #new_price, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Old price is correct, DOM Id: #old_price, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Discount is correct, DOM Id: #discount, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Rating is correct, DOM Id: #EM____82, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Description is correct, DOM Id: #P____83, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Price is correct, DOM Id: #new_price, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Old price is correct, DOM Id: #old_price, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Discount is correct, DOM Id: #discount, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Rating is correct, DOM Id: #EM____82, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Description is correct, DOM Id: #P____83, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Price is correct, DOM Id: #new_price, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 3, Test Name: Shoe with no offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Chrome, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Rating is correct, DOM Id: #EM____82, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Description is correct, DOM Id: #P____83, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Price is correct, DOM Id: #new_price, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 3, Test Name: Shoe with no offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Chrome, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Rating is correct, DOM Id: #EM____82, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Description is correct, DOM Id: #P____83, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Price is correct, DOM Id: #new_price, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 3, Test Name: Shoe with no offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Chrome, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+
+// TASK 3 - FIREFOX
+
+Task: 3, Test Name: Shoe with special offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Rating is correct, DOM Id: #EM____82, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Description is correct, DOM Id: #P____83, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Price is correct, DOM Id: #new_price, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Old price is correct, DOM Id: #old_price, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Discount is correct, DOM Id: #discount, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Rating is correct, DOM Id: #EM____82, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Description is correct, DOM Id: #P____83, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Price is correct, DOM Id: #new_price, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Old price is correct, DOM Id: #old_price, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Discount is correct, DOM Id: #discount, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Rating is correct, DOM Id: #EM____82, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Description is correct, DOM Id: #P____83, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Price is correct, DOM Id: #new_price, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Old price is correct, DOM Id: #old_price, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Discount is correct, DOM Id: #discount, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 3, Test Name: Shoe with special offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with special offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Rating is correct, DOM Id: #EM____82, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Description is correct, DOM Id: #P____83, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Price is correct, DOM Id: #new_price, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Fail
+
+Task: 3, Test Name: Shoe with no offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Firefox, Viewport: 1200 x 700, Device: Laptop, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Rating is correct, DOM Id: #EM____82, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Description is correct, DOM Id: #P____83, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Price is correct, DOM Id: #new_price, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Fail
+
+Task: 3, Test Name: Shoe with no offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Firefox, Viewport: 768 x 700, Device: Tablet, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Shoe name is correct, DOM Id: #shoe_name, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Image is centered, DOM Id: #DIV__rowjustify__68, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Rating is correct, DOM Id: #EM____82, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Description is correct, DOM Id: #P____83, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Price is correct, DOM Id: #new_price, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Fail
+
+Task: 3, Test Name: Shoe with no offer - Default size is correct, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Default quantity is correct, DOM Id: #quantity_1, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Size can be changed, DOM Id: #DIV__row__88, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+Task: 3, Test Name: Shoe with no offer - Add to cart button is correct, DOM Id: #A__btn__114, Browser: Firefox, Viewport: 500 x 700, Device: Mobile, Status: Pass
+
+
+// TASK 3 - EDGE CHROMIUM
+// Impossible to launch tests on Edge, I'm on linux : cypress does not propose Edge in browsers' list

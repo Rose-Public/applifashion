@@ -1,19 +1,16 @@
 // ELEMENTS
 	const filtersSidebar = '#filter_col'
 	const openFiltersIcon = '#ti-filter'
-	const openFiltersTitle = '#SPAN____208'
+	const openFiltersTitle = '#SPAN____209'
 	const filtersFilterBtn = '#filterBtn'
 	const filtersResetBtn = '#resetBtn'
 	const filtersCloseCross = '#I__ticlose__71'
 
-	const displayGridIcon = '#I__tiviewgrid__202'
-	const displayListIcon = '#I__tiviewlist__204'
+	const displayGridIcon = '#I__tiviewgrid__203'
+	const displayListIcon = '#I__tiviewlist__205'
 
-	const thumbnailMenu = '[id^="UL____"]'
-
-	// shoes examples (with and without special offer)
-	const shoeWithNoOfferWrapper = '#DIV__griditem__261'
-	const shoeWithSpecialOfferWrapper = '#DIV__griditem__211'
+	const thumbnailMenu = '.grid_item ul'
+	const thumbnailItems = '.grid_item ul li'
 
 // FUNCTIONS
 	let verifyCategories = () => {
@@ -41,52 +38,15 @@
 			})
 	}
 
-	let verifyOpenCloseFiltersSidebar = () => {
-		// We first assert that sidebar is not displayed by default
-		cy.get(filtersSidebar).should('not.be.visible')
-
-		// We click on the icon to open filters
-		cy.get(openFiltersIcon).click()
-
-		// We assert that after clicking, the sidebar filters is visible and verify filters' order
-		cy.get(filtersSidebar).should('be.visible')
-		verifyFiltersSidebarContentWhenVisible()
-
-		// When we close the filters sidebar, it is no more visible
-		cy.get(filtersCloseCross).click()
-		cy.get(filtersSidebar).should('not.be.visible')
+	let verifyThumbnailMenuOnlyOnHover = () => {
+		cy.get(thumbnailMenu).should('be.hidden').invoke('show')
+		cy.get(thumbnailItems).should('be.hidden').invoke('show').should('be.visible')
+		cy.screenshot('Homepage on Laptop - Shoes Thumbnails on hover')
 	}
 
-	let verifyThumbnailMenuOnlyOnHover = (shoeType) => {
-		// We first assert the thumbnail menu doesn't display if thumbnail is not hovered
-		cy.get(shoeType).within(() => {
-			cy.get(thumbnailMenu)
-				.should('be.hidden')
-		})
-
-		// We then assert it displays on the right of the hovered thumbnail
-		cy.get(shoeType).within(() => {
-			cy.get(thumbnailMenu)
-				.should('have.css', 'position', 'absolute')
-				.and('have.css', 'top', '10px')
-				.and('have.css', 'right', '10px')
-		})
-	}
-
-	let verifyThumbnailMenuAlwaysDisplayed = (shoeType) => {
-		// We first assert the thumbnail menu is always displayed, even if thumbnail is not hovered
-		cy.get(shoeType).within(() => {
-			cy.get(thumbnailMenu)
-				.should('not.be.hidden')
-		})
-
-		// We then assert it displays on the right of the hovered thumbnail
-		cy.get(shoeType).within(() => {
-			cy.get(thumbnailMenu)
-				.should('have.css', 'position', 'relative')
-				.and('have.css', 'top', '0px')
-				.and('have.css', 'right', '0px')
-		})
+	let verifyThumbnailMenuAlwaysDisplayed = () => {
+		cy.get(thumbnailMenu).should('be.visible')
+		cy.get(thumbnailItems).should('be.visible')
 	}
 
 // TESTS
@@ -103,6 +63,7 @@ describe('HOMEPAGE : focus on elements which displaying changes from one device 
 			})
 
 			it('Horizontal menu contains icons to chose displaying mode', function() {
+				cy.screenshot('Homepage on Laptop')
 				cy.get(displayGridIcon).should('be.visible')
 				cy.get(displayListIcon).should('be.visible')
 			})
@@ -122,6 +83,7 @@ describe('HOMEPAGE : focus on elements which displaying changes from one device 
 			})
 
 			it('Horizontal menu does NOT contain icons to chose displaying mode', function() {
+				cy.screenshot('Homepage on Tablet - Default displaying')
 				cy.get(displayGridIcon).should('not.be.visible')
 				cy.get(displayListIcon).should('not.be.visible')
 			})
@@ -132,7 +94,21 @@ describe('HOMEPAGE : focus on elements which displaying changes from one device 
 			})
 
 			it('Filters sidebar is not visible until it is accessed through icon "Filter"', function() {
-				verifyOpenCloseFiltersSidebar()
+				// We first assert that sidebar is not displayed by default
+				cy.get(filtersSidebar).should('not.be.visible')
+
+				// We click on the icon to open filters
+				cy.get(openFiltersIcon).click()
+
+				// We assert that after clicking, the sidebar filters is visible and verify filters' order
+				cy.screenshot('Homepage on Tablet - Opened filters')
+				cy.get(filtersSidebar).should('be.visible')
+				verifyFiltersSidebarContentWhenVisible()
+
+				// When we close the filters sidebar, it is no more visible
+				cy.get(filtersCloseCross).click()
+				cy.screenshot('Homepage on Tablet - Closed filters')
+				cy.get(filtersSidebar).should('not.be.visible')
 			})
 		})
 
@@ -142,57 +118,62 @@ describe('HOMEPAGE : focus on elements which displaying changes from one device 
 			})
 
 			it('Horizontal menu contains the icon "Filter" but NOT its title "Filter"', function() {
+				cy.screenshot('Homepage on Mobile - Default displaying')
 				cy.get(openFiltersIcon).should('be.visible')
 				cy.get(openFiltersTitle).should('not.be.visible')
-
 			})
 
 			it('Filters sidebar is not visible until it is accessed through icon "Filter"', function() {
-				verifyOpenCloseFiltersSidebar()
+				// We first assert that sidebar is not displayed by default
+				cy.get(filtersSidebar).should('not.be.visible')
+
+				// We click on the icon to open filters
+				cy.get(openFiltersIcon).click()
+
+				// We assert that after clicking, the sidebar filters is visible and verify filters' order
+				cy.screenshot('Homepage on Mobile - Opened filters')
+				cy.get(filtersSidebar).should('be.visible')
+				verifyFiltersSidebarContentWhenVisible()
+
+				// When we close the filters sidebar, it is no more visible
+				cy.get(filtersCloseCross).click()
+				cy.screenshot('Homepage on Mobile - Closed filters')
+				cy.get(filtersSidebar).should('not.be.visible')
 			})
 		})
 	})
 
 	describe('Shoes THUMBNAILS changing elements = Thumbnail Menu (favorite, compare, cart)', function() {
-		describe('Shoes Thumbnail Menu (both types of shoes) - on LAPTOP (1200x700)', function() {
+		describe('Shoes Thumbnail Menu - on LAPTOP (1200x700)', function() {
 			beforeEach(function() {
 				cy.goOnDevice('laptop')
 			})
 
-			it('Thumbnails menu is visible only on hover AND on the right - Shoe with no offer', function() {
-				verifyThumbnailMenuOnlyOnHover(shoeWithNoOfferWrapper)
+			it('Thumbnails menu are visible only on hover AND on the right', function() {
+				verifyThumbnailMenuOnlyOnHover()
 			})
 
-			it('Thumbnails menu is visible only on hover AND on the right - Shoe with Special offer', function() {
-				verifyThumbnailMenuOnlyOnHover(shoeWithSpecialOfferWrapper)
-			})
 		})
 
-		describe('Shoes Thumbnail Menu (both types of shoes) - on TABLET (768x700)', function() {
+		describe('Shoes Thumbnail Menu - on TABLET (768x700)', function() {
 			beforeEach(function() {
 				cy.goOnDevice('tablet')
 			})
 
-			it('Thumbnails menu is directly visible AND on the bottom - Shoe with Special offer', function() {
-				verifyThumbnailMenuAlwaysDisplayed(shoeWithSpecialOfferWrapper)
-			})
-
-			it('Thumbnails menu is directly visible AND on the bottom - Shoe with No offer', function() {
-				verifyThumbnailMenuAlwaysDisplayed(shoeWithNoOfferWrapper)
+			it('Thumbnails menu are directly visible AND on the bottom', function() {
+				cy.screenshot('Homepage Shoes Thumbnails on Tablet')
+				verifyThumbnailMenuAlwaysDisplayed()
 			})
 		})
 
-		describe('Shoes Thumbnail Menu (both types of shoes) - on MOBILE (500x700)', function() {
+		describe('Shoes Thumbnail Menu - on MOBILE (500x700)', function() {
 			beforeEach(function() {
 				cy.goOnDevice('mobile')
 			})
 
-			it('Thumbnails menu is directly visible AND on the bottom - Shoe with Special offer', function() {
-				verifyThumbnailMenuAlwaysDisplayed(shoeWithSpecialOfferWrapper)
-			})
-
-			it('Thumbnails menu is directly visible AND on the bottom - Shoe with No offer', function() {
-				verifyThumbnailMenuAlwaysDisplayed(shoeWithNoOfferWrapper)
+			it('Thumbnails menu are directly visible AND on the bottom', function() {
+				cy.screenshot('Homepage Shoes Thumbnails on Mobile')
+				verifyThumbnailMenuAlwaysDisplayed()
 			})
 		})
 	})

@@ -42,21 +42,6 @@
 		})
 	}
 
-	let verifyOpenAndCloseBurgerMenu = () => {
-		// We click on burgerMenu...
-		cy.get(burgerMenu)
-			.should('be.visible')
-			.click()
-
-		// ... and assert main menu div and all 5 submenus elements are visible
-		cy.get(mainMenuDiv).should('be.visible')
-		verifySubmenus()
-
-		// We close the burger menu by clicking on cross and verify the menu is no more visible
-		cy.get(burgerMenuCloseCross).click()
-		cy.get(mainMenuDiv).should('not.be.visible')
-	}
-
 // TESTS
 
 describe('HEADER on Homepage : focus on elements which displaying changes from one device to the other', function() {
@@ -70,6 +55,7 @@ describe('HEADER on Homepage : focus on elements which displaying changes from o
 		})
 
 		it('Logo is visible', function() {
+			cy.screenshot('Header-Homepage on Laptop')
 			cy.get(logo).should('be.visible')
 		})
 
@@ -105,6 +91,7 @@ describe('HEADER on Homepage : focus on elements which displaying changes from o
 		})
 
 		it('Logo is visible', function() {
+			cy.screenshot('Header-Homepage on Tablet - Default displaying')
 			cy.get(logo).should('be.visible')
 		})
 
@@ -119,11 +106,13 @@ describe('HEADER on Homepage : focus on elements which displaying changes from o
 				.click()
 
 			// We assert main menu div and all 5 submenus elements are visible
+			cy.screenshot('Header-Homepage on Tablet - After opening Menu')
 			cy.get(mainMenuDiv).should('be.visible')
 			verifySubmenus()
 
 			// We close the burger menu by clicking on cross and verify the menu is no more visible
 			cy.get(burgerMenuCloseCross).click()
+			cy.screenshot('Header-Homepage on Tablet - After closing Menu')
 			cy.get(mainMenuDiv).should('not.be.visible')
 		})
 
@@ -154,15 +143,29 @@ describe('HEADER on Homepage : focus on elements which displaying changes from o
 		})
 
 		it('Logo is visible', function() {
+			cy.screenshot('Header-Homepage on Mobile - Default displaying')
 			cy.get(logo).should('be.visible')
 		})
 
 		it('Main menu is not visible until accessed via burger menu', function() {
-			// We first check main menu is not directly visible on main page
+			// We first check main menu and submenus are not directly visible on main page
 			cy.get(mainMenuDiv).should('not.be.visible')
 			cy.get(submenusList).should('not.be.visible')
 
-			verifyOpenAndCloseBurgerMenu()
+			// After clicking on burger menu, the list becomes visible
+			cy.get(burgerMenu)
+				.should('be.visible')
+				.click()
+
+			// We assert main menu div and all 5 submenus elements are visible
+			cy.screenshot('Header-Homepage on Mobile - After opening Menu')
+			cy.get(mainMenuDiv).should('be.visible')
+			verifySubmenus()
+
+			// We close the burger menu by clicking on cross and verify the menu is no more visible
+			cy.get(burgerMenuCloseCross).click()
+			cy.screenshot('Header-Homepage on Mobile - After closing Menu')
+			cy.get(mainMenuDiv).should('not.be.visible')
 		})
 
 		it('A Search icon is visible', function() {
@@ -176,6 +179,7 @@ describe('HEADER on Homepage : focus on elements which displaying changes from o
 
 			// We click on Search button and then assert Search bar displays correctly
 			cy.get(searchButtonIconMobile).click()
+			cy.screenshot('Header-Homepage on Mobile - After opening Searchbar')
 			cy.get(searchBarLittleView)
 				.should('be.visible')
 				.and('have.attr', 'placeholder', 'Search over 10,000 shoes!')
@@ -185,6 +189,7 @@ describe('HEADER on Homepage : focus on elements which displaying changes from o
 			cy.get(searchButtonIconMobile).click()
 
 			// We assert again that Search bar is not visible (neither big nor little view)
+			cy.screenshot('Header-Homepage on Mobile - After closing Searchbar')
 			cy.get(searchBarBigView).should('not.be.visible')
 			cy.get(searchBarLittleView).should('not.be.visible')
 		})

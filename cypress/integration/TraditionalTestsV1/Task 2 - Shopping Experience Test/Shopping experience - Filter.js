@@ -35,33 +35,41 @@ describe('Shopping experience : focus on Filter Results', function() {
 	it('I can filter on black shoes - On LAPTOP (1200x700)', function() {
 		cy.goOnDevice('laptop')
 
+		cy.screenshot('Filter on Laptop - Before filtering')
 		filterOnBlackColor()
 
 		// We assert that there are 2 articles
+		cy.screenshot('Filter on Laptop - After filtering')
 		verifyNumberOfShoesDisplayed(2)
 	})
 
 	it('I can filter on black shoes - On TABLET (768x700)', function() {
 		cy.goOnDevice('tablet')
 
+		cy.screenshot('Filter on Tablet - Before filtering')
+
 		// We click on the filter icon to display filters sidebar
 		cy.get(openFiltersIcon).click()
 
 		filterOnBlackColor()
 
 		// We assert that there are 2 articles
+		cy.screenshot('Filter on Tablet - After filtering')
 		verifyNumberOfShoesDisplayed(2)
 	})
 
 	it('I can filter on black shoes - On MOBILE (500x700)', function() {
 		cy.goOnDevice('mobile')
 
+		cy.screenshot('Filter on Mobile - Before filtering')
+
 		// We click on the filter icon to display filters sidebar
 		cy.get(openFiltersIcon).click()
 
 		filterOnBlackColor()
 
 		// We assert that there are 2 articles
+		cy.screenshot('Filter on Mobile - After filtering')
 		verifyNumberOfShoesDisplayed(2)
 	})
 })

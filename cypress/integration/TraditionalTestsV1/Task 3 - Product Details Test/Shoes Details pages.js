@@ -109,6 +109,7 @@ describe('Shoes Details pages : focus on differences between shoes types', funct
 			})
 
 			it('Shoe name and image are correct', function() {
+				cy.screenshot('Shoe with a SPECIAL OFFER Details page - On Laptop')
 				verifyName(specialOfferShoe.name)
 				verifyImagePosition()
 			})
@@ -144,6 +145,7 @@ describe('Shoes Details pages : focus on differences between shoes types', funct
 			})
 
 			it('Shoe name and image are correct', function() {
+				cy.screenshot('Shoe with a SPECIAL OFFER Details page - On Tablet')
 				verifyName(specialOfferShoe.name)
 				verifyImagePosition()
 			})
@@ -179,6 +181,7 @@ describe('Shoes Details pages : focus on differences between shoes types', funct
 			})
 
 			it('Shoe name and image are correct', function() {
+				cy.screenshot('Shoe with a SPECIAL OFFER Details page - On Mobile')
 				verifyName(specialOfferShoe.name)
 				verifyImagePosition()
 			})
@@ -220,6 +223,7 @@ describe('Shoes Details pages : focus on differences between shoes types', funct
 			})
 
 			it('Shoe name and image are correct', function() {
+				cy.screenshot('Shoe with NO OFFER Details page - On Laptop')
 				verifyName(noOfferShoe.name)
 				verifyImagePosition()
 			})
@@ -255,6 +259,7 @@ describe('Shoes Details pages : focus on differences between shoes types', funct
 			})
 
 			it('Shoe name and image are correct', function() {
+				cy.screenshot('Shoe with NO OFFER Details page - On Tablet')
 				verifyName(noOfferShoe.name)
 				verifyImagePosition()
 			})
@@ -290,6 +295,7 @@ describe('Shoes Details pages : focus on differences between shoes types', funct
 			})
 
 			it('Shoe name and image are correct', function() {
+				cy.screenshot('Shoe with NO OFFER Details page - On Mobile')
 				verifyName(noOfferShoe.name)
 				verifyImagePosition()
 			})

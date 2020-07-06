@@ -14,12 +14,15 @@ describe('Shoe DETAILS PAGE : focus on elements which displaying changes from on
 		cy.visit('./gridHackathonProductDetailsV1.html?id=3')
 
 		cy.goOnDevice('laptop')
+		cy.screenshot('Shoe Details page on Laptop')
 		verifyBottomDisplayWrap()
 
 		cy.goOnDevice('tablet')
+		cy.screenshot('Shoe Details page on Tablet')
 		verifyBottomDisplayWrap()
 
 		cy.goOnDevice('mobile')
+		cy.screenshot('Shoe Details page on Mobile')
 		verifyBottomDisplayWrap()
 	})
 })

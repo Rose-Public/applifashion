@@ -15,6 +15,7 @@
 
 import '@applitools/eyes-cypress/commands'
 
+require('cypress-nhover')
 
 // Import commands.js using ES2015 syntax:
 import './commands'

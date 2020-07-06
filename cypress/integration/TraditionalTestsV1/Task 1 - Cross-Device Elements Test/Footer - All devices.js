@@ -39,6 +39,7 @@ describe('FOOTER : focus on elements which displaying changes from one device to
 		})
 
 		it('All 3 main sections are always opened', function() {
+			cy.screenshot('Footer Main sections on Laptop')
 			verifyDisplayOpened(subsectionsDivs)
 		})
 	})
@@ -49,6 +50,7 @@ describe('FOOTER : focus on elements which displaying changes from one device to
 		})
 
 		it('All 3 main sections are always opened', function() {
+			cy.screenshot('Footer Main sections on Tablet')
 			verifyDisplayOpened(subsectionsDivs)
 		})
 	})
@@ -59,6 +61,7 @@ describe('FOOTER : focus on elements which displaying changes from one device to
 		})
 
 		it('All 3 main sections are collapsed by default', function() {
+			cy.screenshot('Footer Main sections on Mobile - Default displaying')
 			cy.get(subsectionsDivs).should('have.css', 'display', 'none')
 		})
 
@@ -72,6 +75,7 @@ describe('FOOTER : focus on elements which displaying changes from one device to
 				.click({multiple:true})
 
 			// We assert the subsections are opened
+			cy.screenshot('Footer Main sections on Mobile - After opening')
 			cy.get(subsectionsDivs)
 				.should('have.class', 'show')
 
@@ -80,6 +84,7 @@ describe('FOOTER : focus on elements which displaying changes from one device to
 				.click({multiple:true})
 
 			// ... And assert they're collapsed again
+			cy.screenshot('Footer Main sections on Mobile - After recollapsing')
 			cy.get(subsectionsDivs)
 				.should('not.have.class', 'show')
 		})
